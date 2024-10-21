@@ -1,0 +1,45 @@
+body {
+    display: flex;
+    margin: 0;
+    height: 100vh;
+    font-family: "Holtwood One SC";
+}
+
+.izquierda {
+    flex: 1;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.derecha {
+    flex: 1;
+    padding: 20px;
+    background-color: #fff;
+    overflow-y: auto; }
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1, h2 {
+    color: #0056b3;
+    font-family: "Holtwood One SC";
+
+}
+
+p {
+    line-height: 1.6;
+    font-family: "Frank Ruhl Libre";
+}
+
+
+
+  
+
+
+
+
+

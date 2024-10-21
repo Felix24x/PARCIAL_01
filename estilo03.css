@@ -1,0 +1,78 @@
+/* Estilos básicos para la página */
+body {
+    font-family: "Abel";
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+/* Estilo del encabezado */
+header {
+    font-family:"Holtwood One SC" ;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    text-shadow:2px 2px 4px #0071bc;
+}
+
+/* Estilo del contenedor principal */
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+/* Estilo de la sección de modelos */
+.modelos {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Estilo para cada modelo */
+.modelo {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 300px;
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+}
+
+.modelo img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.modelo h2 {
+    color: #0071bc;
+    margin: 0.5rem 0;
+}
+
+.modelo p {
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
+/* Estilo del pie de página */
+footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Efecto hover para los modelos */
+.modelo:hover {
+    transform: scale(1.05);
+}
